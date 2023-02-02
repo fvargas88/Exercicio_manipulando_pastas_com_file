@@ -25,6 +25,9 @@ public class Program {
 		for (File file : files) {
 			System.out.println(file);
 		}
+		
+		boolean success = new File(strPath + "\\newfolder").mkdir();
+		System.out.println("Dicrectory created successfully: " + success);
 	
 		
 		
